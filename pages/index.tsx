@@ -10,23 +10,19 @@ export default function Home() {
   return (
     <>
       <Container maxWidth="lg">
-        <Box
-          sx={{
-            my: 4,
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
+        <Typography
+          variant="h2"
+          mt={10}
+          sx={{ fontWeight: "bold", textAlign: "center" }}
         >
-          <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-            Material UI - Next.js example in TypeScript
-          </Typography>
-          <Link href="/about" color="secondary">
-            Go to the about page
-          </Link>
-          <Copyright />
-        </Box>
+          Ulysse Rossi
+        </Typography>
+        <Typography variant="h4" mt={10} sx={{ textAlign: "center" }}>
+          industrial IT student at the Universty College of Haute École Louvain
+          en Hainaut Charleroi and currently seeking for an internship of 14
+          weeks in fields like automation, industry 4.0, XR visualization, web
+          developpement and more.
+        </Typography>
       </Container>
     </>
   );
