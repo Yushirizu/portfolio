@@ -28,9 +28,8 @@ export default function Home() {
           </Typography>
           <Typography variant="h4" mt={2} sx={{ textAlign: "center" }}>
             Industrial IT student at the University College of Haute École
-            Louvain en Hainaut Charleroi and currently seeking an internship of
-            14 weeks in fields like automation, industry 4.0, XR visualization,
-            web development, and more.
+            Louvain en Hainaut Charleroi and currently enrolled in an internship
+            of 14 weeks in CETIC in cybersecurity and automation.
           </Typography>
         </Box>
         <Grid container spacing={4} mt={10}>
