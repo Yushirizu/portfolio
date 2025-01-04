@@ -14,6 +14,7 @@ export default function Projects() {
         display={"flex"}
         justifyContent={"center"}
         mt={5}
+        sx={{ fontWeight: "bold" }}
       >
         First-year project at UMons
       </Typography>
@@ -41,6 +42,7 @@ export default function Projects() {
         display={"flex"}
         justifyContent={"center"}
         mt={5}
+        sx={{ fontWeight: "bold" }}
       >
         First-year multidisciplinary project at HELHa
       </Typography>
@@ -81,6 +83,7 @@ export default function Projects() {
         display={"flex"}
         justifyContent={"center"}
         mt={5}
+        sx={{ fontWeight: "bold" }}
       >
         Aspirin automation project
       </Typography>
@@ -105,6 +108,7 @@ export default function Projects() {
         display={"flex"}
         justifyContent={"center"}
         mt={5}
+        sx={{ fontWeight: "bold" }}
       >
         Wordskills competition
       </Typography>
@@ -146,6 +150,7 @@ export default function Projects() {
         display={"flex"}
         justifyContent={"center"}
         mt={5}
+        sx={{ fontWeight: "bold" }}
       >
         2nd-year project multidisciplinary project
       </Typography>
@@ -182,6 +187,7 @@ export default function Projects() {
         display={"flex"}
         justifyContent={"center"}
         mt={5}
+        sx={{ fontWeight: "bold" }}
       >
         2nd Year Automation Project
       </Typography>
