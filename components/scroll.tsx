@@ -3,6 +3,8 @@ import { Box, Fab, useScrollTrigger, Zoom } from "@mui/material";
 import React from "react";
 import { useCallback } from "react";
 
+// code from https://dilshankelsen.com/creating-scroll-to-top-button-with-react-mui/
+
 function ScrollToTopFab() {
   // Use `window` instead of `body` as `document` will be `undefined` when the
   // hooks first runs. By default, useScrollTrigger will attach itself to `window`.
@@ -27,7 +29,7 @@ function ScrollToTopFab() {
       >
         <Fab
           onClick={scrollToTop}
-          color="primary"
+          sx={{ backgroundColor: "black", color: "white" }}
           size="small"
           aria-label="Scroll back to top"
         >
