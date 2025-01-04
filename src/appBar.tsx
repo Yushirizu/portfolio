@@ -1,3 +1,4 @@
+import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -8,8 +9,8 @@ import Link from "@mui/material/Link";
 const pages = [
   { name: "Introduction", href: "/" },
   { name: "About me", href: "/about" },
+  { name: "Projects", href: "/projects" },
   { name: "Credentials", href: "/credentials" },
-  { name: "My works", href: "/projects" },
 ];
 
 function ResponsiveAppBar() {
