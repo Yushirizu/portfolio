@@ -4,19 +4,21 @@ import { AppProps } from "next/app";
 import { AppCacheProvider } from "@mui/material-nextjs/v14-pagesRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import theme from "../src/theme";
-import ButtonAppBar from "../src/appBar";
+import theme from "../components/theme";
+import ButtonAppBar from "../components/appBar";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import { Container } from "@mui/material";
+import ScrollToTopFab from "../components/scroll";
 
 export default function MyApp(props: AppProps) {
   const { Component, pageProps } = props;
   return (
     <>
       <ButtonAppBar />
+      <ScrollToTopFab />
       <AppCacheProvider {...props}>
         <Head>
           <meta name="viewport" content="initial-scale=1, width=device-width" />

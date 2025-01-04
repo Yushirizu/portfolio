@@ -3,6 +3,7 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
+import Scroll from "../components/scroll";
 
 export default function Projects() {
   return (
@@ -222,7 +223,11 @@ export default function Projects() {
         PLC. Additionally, I configured the PID system to display real-time data
         on a graph on the HMI.
       </Typography>
-      <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+      <Typography
+        mt={2}
+        mb={5}
+        sx={{ textIndent: "2em", textAlign: "justify" }}
+      >
         Through this project, I gained knowledge of Siemens automation and
         regulation systems. I learned how to integrate PID control, work with
         analogue signals and resolve logical issues. While I had a Technocampus
