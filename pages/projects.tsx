@@ -25,19 +25,30 @@ export default function Projects() {
         <Grid container spacing={2} alignItems="center">
           <Grid size={3}>
             <Box
-              component="img"
-              src="/images/tnt.png"
-              alt="projetfinal"
-              width="100%"
               sx={{
-                boxShadow: 3,
-                borderRadius: 1,
-                transition: "transform 0.3s ease-in-out",
-                "&:hover": {
-                  transform: "scale(1.5)",
-                },
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
               }}
-            />
+            >
+              <Box
+                component="img"
+                src="/images/tnt.png"
+                alt="projetfinal"
+                width="100%"
+                sx={{
+                  boxShadow: 3,
+                  borderRadius: 1,
+                  transition: "transform 0.3s ease-in-out",
+                  "&:hover": {
+                    transform: "scale(1.5)",
+                  },
+                }}
+              />
+              <Typography mt={2} variant="body2" sx={{ textAlign: "center" }}>
+                Synthesis of TNT
+              </Typography>
+            </Box>
           </Grid>
           <Grid size={9}>
             <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
@@ -46,8 +57,12 @@ export default function Projects() {
               Demolition eXplosive (RDX). It was a research project on how these
               compounds are used, how they are produced, how they react, and
               why. The feedback from the teachers was that we focused too much
-              on the military side and not enough on the chemistry aspect. I
-              learned after the presentation that you should always stay in
+              on the military side and not enough on the chemistry aspect. The
+              only chemistry aspects were the synthesis formula of the compounds
+              which you can find the one of the TNT on the left side.
+            </Typography>
+            <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+              I learned after the presentation that you should always stay in
               context and never go too far off-topic, especially in final
               projects like this.
             </Typography>
@@ -64,23 +79,34 @@ export default function Projects() {
         <Grid container spacing={2} alignItems="center">
           <Grid size={3}>
             <Box
-              component="img"
-              src="/images/ares.png"
-              alt="projetfinal"
-              width="100%"
               sx={{
-                boxShadow: 3,
-                borderRadius: 1,
-                transition: "transform 0.3s ease-in-out",
-                "&:hover": {
-                  transform: "scale(1.5)",
-                },
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
               }}
-            />
+            >
+              <Box
+                component="img"
+                src="/images/ares.png"
+                alt="projetfinal"
+                width="100%"
+                sx={{
+                  boxShadow: 3,
+                  borderRadius: 1,
+                  transition: "transform 0.3s ease-in-out",
+                  "&:hover": {
+                    transform: "scale(1.5)",
+                  },
+                }}
+              />
+              <Typography mt={2} variant="body2" sx={{ textAlign: "center" }}>
+                PCB design
+              </Typography>
+            </Box>
           </Grid>
           <Grid size={9}>
             <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-              First year at the University College, it’s the second quarter of
+              First year at the University College, it is the second quarter of
               the year and we had our first project that would regroup multiple
               lessons, including electronics and language C. The goal was to
               develop a system to count boxes moving past a light sensor. The
@@ -95,7 +121,10 @@ export default function Projects() {
               circuit reproduced by the others. I had to learn how the
               communication card worked and code a program to link it with the
               circuit. Additionally, I was tasked with displaying the count on a
-              computer screen using a library called “myconio.h” in C.
+              computer screen using a library called “myconio.h” in C. I was
+              also tasked with an other person of the group to design the PCB
+              circuit using the software Proteus, you can find the final design
+              on the left.
             </Typography>
             <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
               Finally, I have learned more about programming interfaces,
@@ -138,19 +167,30 @@ export default function Projects() {
         <Grid container spacing={2} alignItems="center">
           <Grid size={3}>
             <Box
-              component="img"
-              src="/images/1712222376749.jpeg"
-              alt="wordskills"
-              width="100%"
               sx={{
-                boxShadow: 3,
-                borderRadius: 1,
-                transition: "transform 0.3s ease-in-out",
-                "&:hover": {
-                  transform: "scale(1.5)",
-                },
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
               }}
-            />
+            >
+              <Box
+                component="img"
+                src="/images/1712222376749.jpeg"
+                alt="wordskills"
+                width="100%"
+                sx={{
+                  boxShadow: 3,
+                  borderRadius: 1,
+                  transition: "transform 0.3s ease-in-out",
+                  "&:hover": {
+                    transform: "scale(1.5)",
+                  },
+                }}
+              />
+              <Typography mt={2} variant="body2" sx={{ textAlign: "center" }}>
+                All the participants
+              </Typography>
+            </Box>
           </Grid>
           <Grid size={9}>
             <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
@@ -181,6 +221,12 @@ export default function Projects() {
               after three months because we did not have enough participants.
             </Typography>
             <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+              But we still got to go to an event where they motivated us and
+              explained their sponsors, you can find the image of all the
+              participants on the left and you can find me on the second row
+              starting from the front in third person starting from the left.
+            </Typography>
+            <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
               In conclusion, I have learned a lot about TIA Portal and how
               things are done in Industry 4.0, like the software they used or
               the communication system. It has also made me realise that working
@@ -195,29 +241,80 @@ export default function Projects() {
           mt={5}
           sx={{ fontWeight: "bold", textIndent: "5em" }}
         >
+          Project Lenny
+        </Typography>
+        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+          It was during a hackathon, an event where people program a project on
+          a defined subject, and here the subject where an AI chatbot, an XR/VR
+          application or an AI-driven application. We chose to build an AI
+          chatbot, but we knew nothing about it, we had a little lesson about
+          Retrieval-augmented generation (RAG) and context for AIs earlier on
+          the first day, but we had no knowledge of Python.
+        </Typography>
+        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+          It was during a hackathon, an event where people program a project on
+          a defined subject, and here the subject where an AI chatbot, an XR/VR
+          application or an AI-driven application. We chose to build an AI
+          chatbot, but we knew nothing about it, we had a little lesson about
+          Retrieval-augmented generation (RAG) and context for AIs earlier on
+          the first day, but we had no knowledge of Python.
+        </Typography>
+        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+          Then it was me who led the group on what to do and gave tasks to
+          others. I also worked on the whole system using RAG, the AI to have
+          long-term memory and the AI could have a personality.
+        </Typography>
+        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+          The result was an AI capable of taking a 255-page pdf document about
+          automation in context, retrieving sentences and explication for that
+          document using RAG, an AI capable of recognizing images and we even
+          had a text-to-speech module where you could talk to the AI.
+        </Typography>
+        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+          With this project, I have learned a lot about Python, AI, LangChain,
+          AI memory, and new models of databases such as the vectorial database.
+          I also have learned how to lead a team and give tasks to a group.
+        </Typography>
+        <Typography
+          gutterBottom
+          variant="h5"
+          mt={5}
+          sx={{ fontWeight: "bold", textIndent: "5em" }}
+        >
           2nd-year project multidisciplinary project
         </Typography>
         <Grid container spacing={2} alignItems="center">
           <Grid size={3}>
             <Box
-              component="img"
-              src="/images/projetfinal.jpg"
-              alt="projetfinal"
-              width="100%"
               sx={{
-                boxShadow: 3,
-                borderRadius: 1,
-                transition: "transform 0.3s ease-in-out",
-                "&:hover": {
-                  transform: "scale(1.5)",
-                },
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
               }}
-            />
+            >
+              <Box
+                component="img"
+                src="/images/projetfinal.jpg"
+                alt="projetfinal"
+                width="100%"
+                sx={{
+                  boxShadow: 3,
+                  borderRadius: 1,
+                  transition: "transform 0.3s ease-in-out",
+                  "&:hover": {
+                    transform: "scale(1.5)",
+                  },
+                }}
+              />
+              <Typography mt={2} variant="body2" sx={{ textAlign: "center" }}>
+                Final structure of the project
+              </Typography>
+            </Box>
           </Grid>
           <Grid size={9}>
             <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
               Same thing as the first-year multidisciplinary project, it’s the
-              second quarter and it’s the final project of the year, regrouping
+              second quarter and it is the final project of the year, regrouping
               English, embedded systems and web development lessons. The design
               brief given described how we had to realise a system capable of
               sorting golf balls of different colours. A Web application built
@@ -230,8 +327,9 @@ export default function Projects() {
               My part in the project was to build the full stack website, so
               connection with the database designed by others, displaying the
               data and other functionality like a reset button and live data of
-              what’s happening. I also wrote the program for the Arduino
-              controlling a stepper motor and a camera.
+              what is happening. I also wrote the program for the Arduino
+              controlling a stepper motor and a camera. You can find on left the
+              final structure of the project.
             </Typography>
           </Grid>
         </Grid>
@@ -286,40 +384,25 @@ export default function Projects() {
           mt={5}
           sx={{ fontWeight: "bold", textIndent: "5em" }}
         >
-          Project Lenny
+          3rd-year multidisciplinary project
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          It was during a hackathon, an event where people program a project on
-          a defined subject, and here the subject where an AI chatbot, an XR/VR
-          application or an AI-driven application. We chose to build an AI
-          chatbot, but we knew nothing about it, we had a little lesson about
-          Retrieval-augmented generation (RAG) and context for AIs earlier on
-          the first day, but we had no knowledge of Python.
+          This project is about checking the air quality in a room, so the Total
+          Volatile Organic Compounds (TVOC) and the eCO2 value which is a
+          derivative of the TVOC. When the air quality is too poor, the
+          autonomous system turns on a climatization, here represented by a
+          single fan. When the air quality is even more poor the system opens a
+          window which is represented by a servo motor. You can control the fan
+          and the motor from a control panel but also from your phone, the phone
+          receives information about the quality of air and the limits to
+          activate the fan or the motor.
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          It was during a hackathon, an event where people program a project on
-          a defined subject, and here the subject where an AI chatbot, an XR/VR
-          application or an AI-driven application. We chose to build an AI
-          chatbot, but we knew nothing about it, we had a little lesson about
-          Retrieval-augmented generation (RAG) and context for AIs earlier on
-          the first day, but we had no knowledge of Python.
+          During this project, I had a terrible organisation and did everything
+          last minute and I don’t know if my project will work on time of the
+          deadline.
         </Typography>
-        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          Then it was me who led the group on what to do and gave tasks to
-          others. I also worked on the whole system using RAG, the AI to have
-          long-term memory and the AI could have a personality.
-        </Typography>
-        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          The result was an AI capable of taking a 255-page pdf document about
-          automation in context, retrieving sentences and explication for that
-          document using RAG, an AI capable of recognizing images and we even
-          had a text-to-speech module where you could talk to the AI.
-        </Typography>
-        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          With this project, I have learned a lot about Python, AI, LangChain,
-          AI memory, and new models of databases such as the vectorial database.
-          I also have learned how to lead a team and give tasks to a group.
-        </Typography>
+
         <Typography
           gutterBottom
           variant="h5"
@@ -335,7 +418,8 @@ export default function Projects() {
           were in the factory. The data pulled from the PLC had to be displayed
           on a React app built using the T3-App framework, which also allows to
           use of a Discord authentication to access this data. This data shall
-          also be displayed in a Meta Quest 3 using XR and the Unity Game engine
+          also be displayed in a Meta Quest 3 using XR and the Unity Game
+          engine.
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           In this project, I was in charge of doing the back-end part of the
@@ -348,6 +432,25 @@ export default function Projects() {
           it regroups all the things I love, and I was very excited to learn
           about those subjects. I also discovered a new passion for programming
           XR data visualisation for industrial data.
+        </Typography>
+
+        <Typography
+          gutterBottom
+          variant="h5"
+          mt={5}
+          sx={{ fontWeight: "bold", textIndent: "5em" }}
+        >
+          CETIC internship project
+        </Typography>
+        <Typography
+          mt={2}
+          mb={5}
+          sx={{ textIndent: "2em", textAlign: "justify" }}
+        >
+          My internship project will be a demonstration that PLCs are not secure
+          enough. My role in this project will be to create an OPC UA server on
+          the PLC to send information, then I should pirate that information and
+          demonstrate that OPCUA is not as secure as we think.
         </Typography>
       </Container>
     </>

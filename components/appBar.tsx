@@ -10,7 +10,6 @@ const pages = [
   { name: "Introduction", href: "/" },
   { name: "About me", href: "/about" },
   { name: "Projects", href: "/projects" },
-  { name: "Credentials", href: "/credentials" },
 ];
 
 function ResponsiveAppBar() {
