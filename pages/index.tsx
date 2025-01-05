@@ -110,7 +110,7 @@ export default function Home() {
       </Container>
       <Box
         sx={{
-          mt: 30,
+          mt: 16,
           textAlign: "center",
         }}
       >
