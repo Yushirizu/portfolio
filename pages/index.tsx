@@ -7,10 +7,15 @@ import { Card, CardActionArea, CardContent } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import DownloadIcon from "@mui/icons-material/Download";
 import Scroll from "../components/scroll";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Home</title>
+        <meta name="description" content="Introduction" />
+      </Head>
       <Container maxWidth="lg">
         <Box
           sx={{

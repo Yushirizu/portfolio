@@ -4,10 +4,15 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
 import Scroll from "../components/scroll";
+import Head from "next/head";
 
 export default function Projects() {
   return (
     <>
+      <Head>
+        <title>Projects</title>
+        <meta name="description" content="Projects" />
+      </Head>
       <Container maxWidth="lg">
         <Typography
           gutterBottom

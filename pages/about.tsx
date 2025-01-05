@@ -1,10 +1,19 @@
 import * as React from "react";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
+import Head from "next/head";
 
 export default function About() {
   return (
     <>
+      <Head>
+        <title>About Me</title>
+        <meta
+          name="description"
+          content="A description of my life, my education, and my hobbies."
+        />
+      </Head>
+
       <Container maxWidth="lg">
         <Typography
           variant="h2"
