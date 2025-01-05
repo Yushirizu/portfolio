@@ -186,11 +186,7 @@ export default function About() {
           a new hackathon was announced, and I will also participate. But why do
           I love competition?
         </Typography>
-        <Typography
-          mt={2}
-          mb={5}
-          sx={{ textIndent: "2em", textAlign: "justify" }}
-        >
+        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           It is for the “fight” against a person, pushing yourself and pushing
           other people or a single person to their limits and see who will make
           the best program, or have the best system. For example, with a friend

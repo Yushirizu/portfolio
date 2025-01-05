@@ -87,7 +87,7 @@ export default function Home() {
             <Card sx={{ height: "100%" }}>
               <CardActionArea
                 component="a"
-                href="PMUL3_2425_CV_ROSU.pdf"
+                href="/images/ROSSI_ULYSSE_CV.pdf"
                 download
                 sx={{ textDecoration: "none" }}
               >
