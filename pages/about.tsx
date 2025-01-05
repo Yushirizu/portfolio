@@ -23,7 +23,7 @@ export default function About() {
           Education
         </Typography>
         <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
-          Primary school : Octave Pirmez Lausprelle
+          Primary school: Octave Pirmez Lausprelle
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           In primary school, I was a high-potential kid. My mom crafted me a
