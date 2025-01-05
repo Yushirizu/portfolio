@@ -16,7 +16,7 @@ export default function About() {
 
       <Container maxWidth="lg">
         <Typography
-          variant="h2"
+          variant="h3"
           mt={5}
           sx={{ fontWeight: "bold", textAlign: "center" }}
         >
@@ -90,7 +90,7 @@ export default function About() {
           year.
         </Typography>
         <Typography
-          variant="h2"
+          variant="h3"
           mt={5}
           sx={{ fontWeight: "bold", textAlign: "center" }}
         >
@@ -145,7 +145,7 @@ export default function About() {
         </Typography>
 
         <Typography
-          variant="h2"
+          variant="h3"
           mt={5}
           sx={{ fontWeight: "bold", textAlign: "center" }}
         >
@@ -171,7 +171,7 @@ export default function About() {
           so impactful while making his AI feel more interactive and human.
         </Typography>
         <Typography
-          variant="h2"
+          variant="h3"
           mt={5}
           sx={{ fontWeight: "bold", textAlign: "center" }}
         >

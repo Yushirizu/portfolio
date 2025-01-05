@@ -18,7 +18,7 @@ export default function Projects() {
           gutterBottom
           variant="h5"
           mt={5}
-          sx={{ fontWeight: "bold", textIndent: "5em" }}
+          sx={{ fontWeight: "bold" }}
         >
           First-year project at UMons
         </Typography>
@@ -72,7 +72,7 @@ export default function Projects() {
           gutterBottom
           variant="h5"
           mt={5}
-          sx={{ fontWeight: "bold", textIndent: "5em" }}
+          sx={{ fontWeight: "bold" }}
         >
           First-year multidisciplinary project at HELHa
         </Typography>
@@ -138,7 +138,7 @@ export default function Projects() {
           gutterBottom
           variant="h5"
           mt={5}
-          sx={{ fontWeight: "bold", textIndent: "5em" }}
+          sx={{ fontWeight: "bold" }}
         >
           Aspirin automation project
         </Typography>
@@ -239,7 +239,7 @@ export default function Projects() {
           gutterBottom
           variant="h5"
           mt={5}
-          sx={{ fontWeight: "bold", textIndent: "5em" }}
+          sx={{ fontWeight: "bold" }}
         >
           Project Lenny
         </Typography>
@@ -279,7 +279,7 @@ export default function Projects() {
           gutterBottom
           variant="h5"
           mt={5}
-          sx={{ fontWeight: "bold", textIndent: "5em" }}
+          sx={{ fontWeight: "bold" }}
         >
           2nd-year project multidisciplinary project
         </Typography>
@@ -338,7 +338,7 @@ export default function Projects() {
           gutterBottom
           variant="h5"
           mt={5}
-          sx={{ fontWeight: "bold", textIndent: "5em" }}
+          sx={{ fontWeight: "bold" }}
         >
           2nd-year automation project
         </Typography>
@@ -382,7 +382,7 @@ export default function Projects() {
           gutterBottom
           variant="h5"
           mt={5}
-          sx={{ fontWeight: "bold", textIndent: "5em" }}
+          sx={{ fontWeight: "bold" }}
         >
           3rd-year multidisciplinary project
         </Typography>
@@ -407,7 +407,7 @@ export default function Projects() {
           gutterBottom
           variant="h5"
           mt={5}
-          sx={{ fontWeight: "bold", textIndent: "5em" }}
+          sx={{ fontWeight: "bold" }}
         >
           Industrial project
         </Typography>
@@ -438,7 +438,7 @@ export default function Projects() {
           gutterBottom
           variant="h5"
           mt={5}
-          sx={{ fontWeight: "bold", textIndent: "5em" }}
+          sx={{ fontWeight: "bold" }}
         >
           CETIC internship project
         </Typography>
