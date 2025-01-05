@@ -29,10 +29,10 @@ export default function About() {
           In primary school, I was a high-potential kid. My mom crafted me a
           book with all the different known chemical compounds at the time with
           all their details, colour, form, mass, etc… She also printed me the
-          periodic table of elements and I memorized it. I was also passionate
-          about maths, I read my mom’s memory aid about university-level maths
-          and science, like statistics, trigonometry, derivatives and integrals,
-          and even physical constants.
+          periodic table of elements and I memorized it. I was passionate about
+          maths, I read my mom’s memory aid about university-level maths and
+          science, like statistics, trigonometry, derivatives and integrals, and
+          even physical constants.
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           In my third year, the school's director offered me a proposition: to
@@ -60,10 +60,10 @@ export default function About() {
           development.
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          In my last year of secondary school, I had to make a choice: go for
-          the science route and follow my dream of discovering new theories and
-          getting a Nobel Prize, even though I was not confident enough to do
-          it. Do I go for the new IT route and learn about my new passion?
+          In my last year of secondary school, I had to make a choice: go the
+          science route and follow my dream of discovering new theories and
+          getting a Nobel Prize, even though I was not confident enough to do it
+          or do I go for the new IT route and learn about my new passion?
         </Typography>
         <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
           University of Mons
@@ -72,13 +72,13 @@ export default function About() {
           I decided to try and study Chemistry at the university. I thought I
           was doing quite well in the lessons, I just had difficulties in maths.
           But then arrived my first exams and I studied only during the holiday.
-          I failed every lesson with the exceptions of English and Physics, I
-          then questioned myself about my choice and if it was just that I did
-          not study the lessons, they did not interest me enough, or something
-          else. I followed some lessons during the second quarter but slowly
-          skipped some classes like Biology or Maths. I was not interested
-          anymore and at the end of the year, I decided to quit and go into
-          Industrial IT studying at Haute Ecole Louvain en Hainaut of Charleroi.
+          I failed every lesson with the exceptions of English and Physics. I
+          questioned myself about my choice and if it was just that I did not
+          study the lessons, they did not interest me enough, or something else.
+          I followed some lessons during the second quarter but slowly skipped
+          some classes like Biology or Maths. I was not interested anymore and
+          at the end of the year, I decided to quit and go into Industrial IT
+          studying at Haute Ecole Louvain en Hainaut of Charleroi.
         </Typography>
         <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
           Haute Ecole Louvain en Hainaut
@@ -86,7 +86,7 @@ export default function About() {
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           Now I am here studying at HELHa and enjoying my studies, getting good
           marks and realizing projects I truly love. I am in my third and last
-          year at school I got an internship at CETIC and will maybe work next
+          year at school I got an internship at CETIC and hopefully work this
           year.
         </Typography>
         <Typography
@@ -107,20 +107,21 @@ export default function About() {
           “conveyor belt”, “assembly line”, “manufacturer”, “power plant”, etc…
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          I also love to play rhythm games like Osu! or Geometry Dash. These
-          games taught me how repeating a task every day mindlessly is not a
-          great way to improve a skill, you need to work on your weaknesses and
-          push yourself beyond your comfort zone if you want to improve. Rhythm
-          games also require perseverance, a strong mindset and nerve control.
+          Furthermore, I love to play rhythm games like Osu! or Geometry Dash.
+          These games taught me how repeating a task every day mindlessly is not
+          a great way to improve a skill, you need to work on your weaknesses
+          and push yourself beyond your comfort zone if you want to improve.
+          Rhythm games also require perseverance, a strong mindset and nerve
+          control.
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           For example, you need to be perseverant to try again and again to
           complete a challenging level and face failure repeatedly. You cannot
           give up on the first difficulty you encounter. You also need to have a
-          strong mental when you die in the last part of the level or mind
-          block. A mind block is when you have attempted a level so many times
+          strong mental. When you die in the last part of the level or mind
+          block (A mind block is when you have attempted a level so many times
           that your brain is on autopilot and a part that was easy before is now
-          a part you always die on. It is important not to blame yourself and
+          a part you always die on.) It is important not to blame yourself and
           give up.
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
@@ -133,9 +134,9 @@ export default function About() {
           Watching video content
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          I also love watching video content on YouTube or live streams on
+          I equally love watching video content on YouTube or live streams on
           Twitch. It is a way for me to relax, entertain myself, learn new
-          things, or keep up on the latest technology news.
+          things, or keep up with the latest technology news.
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           I enjoy watching series or anime as well. It is another great way to
@@ -154,11 +155,11 @@ export default function About() {
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           One of my greatest inspirations is Vedal987, a developer and Twitch
           streamer. In his early days as a streamer, he created an AI capable of
-          playing Osu! (I mention this in my hobbies). Over time, he transformed
-          that AI into a chatbot that could interact with his Twitch chat. After
-          two years, his AI evolved to the point where it is difficult to
-          compare it to other human Twitch streamers in terms of interactions
-          and personality.
+          playing Osu! (a game I mention in my hobbies). Over time, he
+          transformed that AI into a chatbot that could interact with his Twitch
+          chat. After two years, his AI evolved to the point where it is
+          difficult to compare it to other human Twitch streamers in terms of
+          interactions and personality.
         </Typography>
         <Typography
           mt={2}
@@ -166,16 +167,15 @@ export default function About() {
           sx={{ textIndent: "2em", textAlign: "justify" }}
         >
           Vedal987 inspires me because of his dedication to what has become the
-          biggest project of his life. I admire his creativity and innovation in
-          ways that engage and entertain his streams with such simple ideas yet
-          so impactful while making his AI feel more interactive and human.
+          biggest project of his life. I admire his creativity of always trying
+          new things that I would have never thought were possible.
         </Typography>
         <Typography
           variant="h3"
           mt={5}
           sx={{ fontWeight: "bold", textAlign: "center" }}
         >
-          Strength and weaknesses
+          Strengths and weaknesses
         </Typography>
         <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
           Competitive
@@ -190,7 +190,7 @@ export default function About() {
           It is for the “fight” against a person, pushing yourself and pushing
           other people or a single person to their limits and see who will make
           the best program, or have the best system. For example, with a friend
-          will always compete and see who gets the best marks on lessons it
+          we always compete and see who gets the best marks on lessons. It
           pushes us to study and win against the other. So, for me, it is also a
           motivation.
         </Typography>
@@ -200,24 +200,23 @@ export default function About() {
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           As you might have already seen my hobbies, I talk about some games
           that need perseverance to succeed such as the game “Geometry Dash” but
-          here it is also in the project. For example, in the 3rd-year project,
-          I did not give up saying that it would be impossible to achieve in
-          time, I worked hard trying to finish it. I do not know if I will make
-          it in time though, but I will do everything to finish it.
+          here it is also in projects I work on. For example, in the 3rd-year
+          project, I did not give up saying that it would be impossible to
+          achieve in time, I worked hard trying to finish it. I do not know if I
+          will make it in time though, but I will do everything to finish it.
         </Typography>
         <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
           Autonomous
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           I love learning new things by myself or working by myself, for
-          instance when at the University of Mons, I started programming video
-          games using Unity and now that is why I had an advantage against the
-          others in terms of Unity knowledge for the industrial project. Another
-          example is that in my 2nd-year multidisciplinary project, I talked
-          about how I worked alone during the Easter holidays, I programmed the
-          Arduino code for the camera during that time, even if it was the
-          holidays. I generally do not need someone to tell me something to do
-          it.
+          instance when I was at the University of Mons, I started programming
+          video games using Unity and now that’s why I had an advantage against
+          the others in terms of Unity knowledge for the industrial project.
+          Another example is that in my 2nd-year multidisciplinary project, I
+          worked alone during the Easter holidays, I programmed the Arduino code
+          for the camera during that time, even if it was the holidays. I
+          generally do not need someone to tell me something to do it.
         </Typography>
         <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
           Imposter syndrome
@@ -225,35 +224,35 @@ export default function About() {
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           When I am looking for a job/internship offer I do not know if I am
           qualified enough for that job, or I say to myself that thousands of
-          people more qualified than me would apply and get that job. I feel
-          like a lot of friends around me who are in IT are also having this,
-          the feel of not being qualified enough or not sure about their skills.
-          I think it is because it is pretty much impossible to put on a scale
-          the level of skill required for a job in programming.
+          people more qualified than me would apply and get that job first. I
+          feel like a lot of friends around me who are in IT are also having
+          this, the feel of not being qualified enough or not sure about their
+          skills. I think it is because it is pretty much impossible to put on a
+          scale the level of skill required for a job in programming.
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          For example, if a company asked me to do computer visualisation. I
-          already worked a little on the subject with my project Lenny and the
-          industrial project but how much should I know because computer
-          visualisation is very vast? Should I build my AI? So, I should know
-          all the maths and the algorithms behind but then I should learn about
-          Large Language Models (LLMs) and neural networks and go on and on
-          thinking that it would be impossible for me. The job might just want
-          you to do very high-level programming where you would only use a
-          library and that’s all.
+          For example, if a company asked me to do computer visualisation, I
+          have already worked a little on the subject with my project Lenny and
+          the industrial project but the subject of computer visualisation is
+          big. Should I build my AI? I should know all the maths and the
+          algorithms behind it. But then I should learn about Large Language
+          Models (LLMs) and neural networks and go on and on thinking that it
+          would be impossible for me. The job might just want you to do very
+          high-level programming where you would only use a library and that is
+          all.
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          In conclusion, it is hard to find where my skills are and how they can
-          be shown to other people in the industry.
+          In conclusion, it is difficult to find where my skills are and how
+          they can be shown to other people in the industry.
         </Typography>
         <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
           Strong-minded
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          I always stray to have the last word during an argument or I always to
-          be right. The only thing that could change my point of view is
-          concrete arguments on the question. For example, when I was working on
-          the 2nd-year automation project, I was sure of myself for the PID
+          I always try to have the last word during an argument or to be right.
+          The only thing that could change my point of view is concrete
+          arguments on the question. For example, when I was working on the
+          2nd-year automation project, I was sure of myself for the PID
           variables (see the text on the 2nd-year automation project) but then a
           member of my group told me that those variables were wrong, and I
           could not believe I was sure of myself. He had to turn on the system
@@ -278,7 +277,7 @@ export default function About() {
           mb={5}
           sx={{ textIndent: "2em", textAlign: "justify" }}
         >
-          In conclusion, in most of my projects, I tend to be quite disorganized
+          To summarize, in most of my projects, I tend to be quite disorganized
           and work on multiple projects or tasks at the same time. However, in
           the end, I still manage to come to an end.
         </Typography>
