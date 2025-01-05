@@ -17,8 +17,7 @@ export default function About() {
           Primary school : Octave Pirmez Lausprelle
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          In primary school, I was a high-potential kid. I am not bragging, but
-          I was ahead of other kids, especially in maths. My mom crafted me a
+          In primary school, I was a high-potential kid. My mom crafted me a
           book with all the different known chemical compounds at the time with
           all their details, colour, form, mass, etc… She also printed me the
           periodic table of elements and I memorized it. I was also passionate
@@ -27,15 +26,14 @@ export default function About() {
           and even physical constants.
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
-          In my third year of primary school, the school's director offered me a
-          proposition: to skip a year and go straight to the fifth year. While
-          it was a great opportunity for me, I was still a kid, and I thought
-          about losing all my friends I had at that time. However, I made the
-          sacrifice anyway, now I have no regrets about my choice, and I am
-          happy I did it.
+          In my third year, the school's director offered me a proposition: to
+          skip a year and go straight to the fifth year. While it was a great
+          opportunity for me, I was still a kid, and I thought about losing all
+          my friends I had at that time. However, I made the sacrifice anyway,
+          now I have no regrets about my choice, and I am happy I did it.
         </Typography>
         <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
-          Secondary School : Collège Saint Augstin Gerpinnes
+          Secondary School : Collège Saint Augustin Gerpinnes
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
           In secondary school, I was still passionate about chemistry, but I
@@ -59,7 +57,28 @@ export default function About() {
           it. Do I go for the new IT route and learn about my new passion?
         </Typography>
         <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
-          University : UMons
+          University of Mons
+        </Typography>
+        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+          I decided to try and study Chemistry at the university. I thought I
+          was doing quite well in the lessons, I just had difficulties in maths.
+          But then arrived my first exams and I studied only during the holiday.
+          I failed every lesson with the exceptions of English and Physics, I
+          then questioned myself about my choice and if it was just that I did
+          not study the lessons, they did not interest me enough, or something
+          else. I followed some lessons during the second quarter but slowly
+          skipped some classes like Biology or Maths. I was not interested
+          anymore and at the end of the year, I decided to quit and go into
+          Industrial IT studying at Haute Ecole Louvain en Hainaut of Charleroi.
+        </Typography>
+        <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
+          Haute Ecole Louvain en Hainaut
+        </Typography>
+        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+          Now I am here studying at HELHa and enjoying my studies, getting good
+          marks and realizing projects I truly love. I am in my third and last
+          year at school I got an internship at CETIC and will maybe work next
+          year.
         </Typography>
         <Typography
           variant="h2"
@@ -68,7 +87,7 @@ export default function About() {
         >
           Hobbies
         </Typography>
-        <Typography variant="h5" mt={2}>
+        <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
           Video Games
         </Typography>
         <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
@@ -101,8 +120,19 @@ export default function About() {
           your nerves are climbing. You need to stay focused and stop your hands
           from shaking.
         </Typography>
-        <Typography variant="h5" mt={2}>
-          Walking
+        <Typography variant="h5" mt={2} sx={{ fontWeight: "bold" }}>
+          Watching video content
+        </Typography>
+        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+          I also love watching video content on YouTube or live streams on
+          Twitch. It is a way for me to relax, entertain myself, learn new
+          things, or keep up on the latest technology news.
+        </Typography>
+        <Typography mt={2} sx={{ textIndent: "2em", textAlign: "justify" }}>
+          I enjoy watching series or anime as well. It is another great way to
+          sit back and relax. Sometimes, watching videos, anime, or series with
+          deep meaning can change your point of view on certain topics or even
+          life in general and I love that feeling.
         </Typography>
 
         <Typography

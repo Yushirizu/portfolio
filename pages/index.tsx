@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import Link from "next/link";
 import { Card, CardActionArea, CardContent } from "@mui/material";
 import Grid from "@mui/material/Grid2";
+import DownloadIcon from "@mui/icons-material/Download";
 import Scroll from "../components/scroll";
 
 export default function Home() {
@@ -46,8 +47,9 @@ export default function Home() {
                       About Me
                     </Typography>
                     <Typography mt={2} mb={2} sx={{ textAlign: "center" }}>
-                      Passionate about technology and innovation, I am dedicated
-                      to learning and applying my skills in real-world projects.
+                      A description of my life, my education, and my hobbies.
+                      <br />
+                      <br />
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -66,15 +68,38 @@ export default function Home() {
                       Projects
                     </Typography>
                     <Typography mt={2} mb={2} sx={{ textAlign: "center" }}>
-                      Discover the projects I have worked on and the
-                      technologies I have used.
-                      <br />
-                      <br />
+                      Discover the projects I have worked on and the lessons I
+                      learned from them.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
               </Card>
             </Link>
+          </Grid>
+        </Grid>
+        <Grid container spacing={4} mt={10}>
+          <Grid size={12}>
+            <Card sx={{ height: "100%" }}>
+              <CardActionArea
+                component="a"
+                href="PMUL3_2425_CV_ROSU.pdf"
+                download
+                sx={{ textDecoration: "none" }}
+              >
+                <CardContent>
+                  <Typography
+                    variant="h5"
+                    sx={{ fontWeight: "bold", textAlign: "center" }}
+                  >
+                    Download My CV
+                    <DownloadIcon sx={{ textAlign: "center" }} />
+                  </Typography>
+                  <Typography mt={2} sx={{ textAlign: "center" }}>
+                    Click here to download a copy of my CV.
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
           </Grid>
         </Grid>
       </Container>
